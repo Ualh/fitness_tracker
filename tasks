@@ -1,0 +1,20 @@
+Friendship:
+- add a nice feed with the possibility to add, pictures, text, like strava
+
+Activities:
+- add specific entry for each sports. For example, cycling we can add distance, time, avg speed and total ascent.
+- 
+
+Bugs:
+- adding a new weight does change it in the database but we do not see the 'distance from objective' change
+- the buttons are not the same for modifying an activity and for modifying a weight. They shall be exactly the same.
+
+Dark mode bugs:
+- The boxes for the activity and weight history are not blackened by the theme and are still white, thus ilisible
+- The box for the explanation of the adaptation is not blackened by the theme and are still white, thus illisible
+- The box that show the friends are not blackened by the theme and still white
+- some of the boxes have a white contour while some have not, we need to make it uniform, all boxes in dark mode shall have a nice minimalistic contour.
+- When we click on a dropdown box, what is inside the dropdown is not in darkmode so we cant read or select anything
+
+Remember me functionality:
+- the remember me functionality does not work as intended as it seems it only saves one device right ? Can you explain how this functionality works so i can decide how to improve it

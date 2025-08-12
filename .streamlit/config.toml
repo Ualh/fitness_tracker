@@ -1,0 +1,16 @@
+[server]
+headless = true
+address = "0.0.0.0"
+port = 5000
+runOnSave = true
+fileWatcherType = "auto"
+maxUploadSize = 50
+
+[theme]
+base = "light"
+
+[runner]
+magicEnabled = true
+
+[logger]
+level = "error"
