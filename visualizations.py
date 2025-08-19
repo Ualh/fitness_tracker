@@ -36,6 +36,7 @@ def create_activity_chart(activities_df, dark_mode=False, lang='en'):
         'Dancing': get_text('dancing', lang),
         'Martial Arts': get_text('martial_arts', lang),
         'Rowing': get_text('rowing', lang),
+        'Bodyweight': get_text('bodyweight', lang),
         'Other': get_text('other', lang)
     }
     
@@ -205,6 +206,7 @@ def create_weekly_summary(activities_df, dark_mode=False, lang='en'):
             'Dancing': get_text('dancing', lang),
             'Martial Arts': get_text('martial_arts', lang),
             'Rowing': get_text('rowing', lang),
+            'Bodyweight': get_text('bodyweight', lang),
             'Other': get_text('other', lang)
         }
         
