@@ -10,7 +10,7 @@ ACTIVITY_TYPES: List[str] = [
     'Running', 'Walking', 'Cycling', 'Swimming', 'Hiking', 'Weightlifting',
     'Skiing', 'Back-country Skiing', 'Yoga', 'Rock Climbing', 'Boxing',
     'Basketball', 'Soccer', 'Tennis', 'CrossFit', 'Pilates', 'Dancing',
-    'Martial Arts', 'Rowing', 'Other'
+    'Martial Arts', 'Rowing', 'Bodyweight', 'Other'
 ]
 
 ACTIVITY_EMOJIS: Dict[str, str] = {
@@ -33,6 +33,7 @@ ACTIVITY_EMOJIS: Dict[str, str] = {
     'Dancing': '💃',
     'Martial Arts': '🥋',
     'Rowing': '🚣‍♂️',
+    'Bodyweight' : '⚖️',
     'Other': '💪'
 }
 
@@ -66,6 +67,7 @@ BASE_CALORIES_PER_MINUTE: Dict[str, int] = {
     'Dancing': 5,
     'Martial Arts': 8,
     'Rowing': 9,
+    'Bodyweight' : 4,
     'Other': 5
 }
 
