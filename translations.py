@@ -69,6 +69,7 @@ translations = {
         'dancing': 'Dancing',
         'martial_arts': 'Martial Arts',
         'rowing': 'Rowing',
+        'bodyweight': 'Poids du Corps',
         'other': 'Other',
         # Adaptation types
         'maximal_aerobic_capacity': 'Maximal aerobic capacity',
@@ -197,6 +198,7 @@ translations = {
         'dancing': 'Danse',
         'martial_arts': 'Arts martiaux',
         'rowing': 'Aviron',
+        'bodyweight': 'Poids du Corps',
         'other': 'Autre',
         # Adaptation types
         'maximal_aerobic_capacity': 'Capacité aérobie maximale',
@@ -269,7 +271,7 @@ def get_activity_types(lang='en'):
         'running', 'walking', 'cycling', 'swimming', 'hiking', 'weightlifting',
         'skiing', 'back_country_skiing', 'yoga', 'rock_climbing', 'boxing',
         'basketball', 'soccer', 'tennis', 'crossfit', 'pilates', 'dancing',
-        'martial_arts', 'rowing', 'other'
+        'martial_arts', 'rowing', 'bodyweight', 'other'
     ]
     return [get_text(key, lang) for key in activity_keys]
 
@@ -286,7 +288,7 @@ def get_activity_type_mapping(lang='en'):
         'running', 'walking', 'cycling', 'swimming', 'hiking', 'weightlifting',
         'skiing', 'back_country_skiing', 'yoga', 'rock_climbing', 'boxing',
         'basketball', 'soccer', 'tennis', 'crossfit', 'pilates', 'dancing',
-        'martial_arts', 'rowing', 'other'
+        'martial_arts', 'rowing', 'bodyweight', 'other'
     ]}
 
 def get_adaptations(lang='en'):
