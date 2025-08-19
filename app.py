@@ -1479,7 +1479,7 @@ def add_activity(dm):
                 ["Running", "Walking", "Cycling", "Swimming", "Hiking", "Weightlifting", 
                  "Skiing", "Back-country Skiing", "Yoga", "Rock Climbing", "Boxing", 
                  "Basketball", "Soccer", "Tennis", "CrossFit", "Pilates", "Dancing", 
-                 "Martial Arts", "Rowing", "Other"]
+                 "Martial Arts", "Rowing", "Bodyweight", "Other"]
             )
             
             duration = st.number_input("Duration (minutes)", min_value=1, value=30)
